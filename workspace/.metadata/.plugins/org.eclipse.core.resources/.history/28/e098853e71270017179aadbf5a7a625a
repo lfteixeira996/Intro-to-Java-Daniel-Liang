@@ -1,0 +1,22 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Exercise_02_06 {
+
+	public static void main(String[] args) throws IOException
+	{	
+		/*Create an object*/
+		Scanner input  = new Scanner(System.in);
+		
+		System.out.println("Enter a number between 0 and 1000: ");
+		double val = input.nextInt();
+		
+		if((val<0) || (val>1000))
+		{
+			System.out.println("Error!");
+			System.exit(1);
+		}
+		
+		
+	}
+}

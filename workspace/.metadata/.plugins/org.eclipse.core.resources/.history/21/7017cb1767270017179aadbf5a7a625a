@@ -1,0 +1,14 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Exercise_02_01 {
+
+	public static void main(String[] args) throws IOException
+	{	
+		Scanner input  = new Scanner(System.in);
+		
+		System.out.print("Insert the temperature in Celsius: ");
+		double celsius = input.nextDouble();
+		
+	}
+}

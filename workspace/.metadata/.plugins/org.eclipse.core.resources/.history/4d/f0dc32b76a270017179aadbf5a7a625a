@@ -1,0 +1,22 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Exercise_02_03 {
+
+	public static void main(String[] args) throws IOException
+	{	
+		Scanner input  = new Scanner(System.in);
+		
+		double foot;
+				
+		System.out.print("Enter a value for feet: ");
+		foot = input.nextDouble();
+				
+		area   = radius*radius*Math.PI;
+		volume = area*length;
+		
+		System.out.printf("The area is %.2f\n", area);
+		System.out.printf("The volume is %.2f\n", volume);
+				
+	}
+}

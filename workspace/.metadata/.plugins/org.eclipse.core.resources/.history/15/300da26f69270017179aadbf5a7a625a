@@ -1,0 +1,27 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Exercise_02_01 {
+
+	public static void main(String[] args) throws IOException
+	{	
+		@SuppressWarnings("resource")
+		Scanner input  = new Scanner(System.in);
+		
+		double radius, length;
+		double area, volume;
+		
+		
+		System.out.print("Enter the radius and length of a cylinder: ");
+		radius = input.nextDouble();
+		length = input.nextDouble();
+		
+		area   = radius*radius*Math.PI;
+		volume = area*length;
+		
+		System.out.print("The area is " + area);
+		System.out.print("The volume is " + volume);
+		
+		
+	}
+}

@@ -1,0 +1,22 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Exercise_02_05 {
+
+	public static void main(String[] args) throws IOException
+	{	
+		Scanner input  = new Scanner(System.in);
+		
+		double subtotal, gratuity, gratuity_rate, total;
+				
+		System.out.print("Enter the subtotal and a gratuity rate: ");
+		subtotal = input.nextDouble();
+		gratuity_rate = input.nextDouble();
+				
+		gratuity 	= subtotal*(gratuity_rate/100);
+		total 		= subtotal + gratuity; 
+		
+		System.out.print("The gratuity is %"+gratuity+ " and total is %"+total);
+		
+	}
+}

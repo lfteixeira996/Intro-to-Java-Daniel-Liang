@@ -1,0 +1,11 @@
+import java.io.IOException;
+
+public class Exercise_02_01 {
+
+	public static void main(String[] args) throws IOException
+	{
+		
+		
+		
+	}
+}
