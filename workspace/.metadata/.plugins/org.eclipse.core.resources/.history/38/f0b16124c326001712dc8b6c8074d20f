@@ -1,0 +1,14 @@
+
+public class Exercise_01_08 {
+	
+	public static void main(String[] args)
+	{
+		double radius = 5.5;
+
+		System.out.printf("Perimeter = %d", 2*radius*Math.PI);
+		System.out.printf("Area = %d", radius*radius*Math.PI);
+		
+		
+		
+	}
+}

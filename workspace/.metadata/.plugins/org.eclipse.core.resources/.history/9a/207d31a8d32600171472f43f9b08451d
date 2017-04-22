@@ -1,0 +1,43 @@
+import java.io.IOException;
+
+public class Exercise_01_13 {
+	
+	public static void main(String[] args) throws IOException
+	{
+		double a,b,c,d,e,f;
+		double x, y;
+//		
+//		System.out.print("Insert value a: ");
+//		a = System.in.read();
+//		
+//		System.out.print("Insert value b: ");
+//		b = System.in.read();
+//		
+//		System.out.print("Insert value c: ");
+//		c = System.in.read();
+//		
+//		System.out.print("Insert value d: ");
+//		d = System.in.read();
+//		
+//		System.out.print("Insert value e: ");
+//		e = System.in.read();
+//		
+//		System.out.print("Insert value f: ");
+//		f = System.in.read();
+		
+		a = 2;
+		b = 3;
+		c = 4;
+		d = 6;
+		e = 9;
+		f = 10;
+		
+		x = (e*d-b*f)/(a*d-b*c);
+		y = (a*f-e*c)/(a*d-b*c);
+		
+		
+		System.out.printf("%.2fx + %.2fy = %.2f\n", a, b, e);
+		System.out.printf("%.2fx + %.2fy = %.2f\n", c, d, f);
+		
+	}
+}

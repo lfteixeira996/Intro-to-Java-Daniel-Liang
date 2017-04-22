@@ -1,0 +1,17 @@
+
+public class Exercise1_3 {
+
+	public static void main(String[] args)
+	{
+		
+		System.out.printf("%5c %6c ",'J', 'A');
+//		System.out.printf("%5c %7s \n",'J', "A A");
+//		System.out.printf("%c%4c %8s \n",'J', 'J',"AAAAA");
+//		System.out.printf("%2c%2c %4c%6c \n",'J', 'J', 'A', 'A');
+		
+		
+		String x = String.format("%" + 10 + "s", "V    V"); 
+		System.out.println(x);
+		
+	}
+}
