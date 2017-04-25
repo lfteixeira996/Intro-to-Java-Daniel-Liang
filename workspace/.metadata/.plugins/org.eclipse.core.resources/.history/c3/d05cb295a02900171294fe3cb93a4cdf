@@ -26,8 +26,6 @@ public class Exercise_02_19 {
 		double s = (side1 + side2 + side3)/2;
 		double area = Math.sqrt(s*(s-side1)*(s-side2)*(s-side3));
 		
-		output.println("The area of the triangle is " + area);
-		
 		
 //		output.print("The area of the haxagon is "+A);
 	}
