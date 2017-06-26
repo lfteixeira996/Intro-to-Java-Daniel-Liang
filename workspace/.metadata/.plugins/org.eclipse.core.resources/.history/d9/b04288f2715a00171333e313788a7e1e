@@ -1,0 +1,26 @@
+import java.io.IOException;
+import java.io.PrintStream;
+import java.util.Random;
+import java.util.Scanner;
+
+public class Exercise_03_18 {
+
+	public static void main(String[] args) throws IOException
+	{	
+		Scanner input  = new Scanner(System.in);
+		double w, c;
+		
+		System.out.print("Enter the weight of the package: ");
+		w = input.nextDouble();
+		
+		if((w>0) || (w<=1))
+		{
+			c = (float) 3.5;
+		}
+		
+		
+		
+		
+	}
+
+}

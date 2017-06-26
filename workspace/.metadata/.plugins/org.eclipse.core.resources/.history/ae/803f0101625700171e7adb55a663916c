@@ -1,0 +1,25 @@
+import java.io.IOException;
+import java.io.PrintStream;
+import java.util.Random;
+import java.util.Scanner;
+
+public class Exercise_03_18 {
+
+	public static void main(String[] args) throws IOException
+	{	
+		Scanner input  = new Scanner(System.in);
+		Random r = new Random();
+		
+		int Low = 1;
+		int High = 12;
+		int Result = r.nextInt(High-Low) + Low;
+		
+		System.out.println("Generated number: "+ Result);
+		
+		
+		
+		
+		
+	}
+
+}
