@@ -1319,3 +1319,17 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://do
 !MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.recommenders.rcp.feature,2.4.9.v20170613-1301
 !SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-08-02 10:51:03.938
 !MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.recommenders.snipmatch.rcp.feature,2.4.9.v20170613-1301
+!SESSION 2017-08-08 20:58:40.273 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-08 20:58:59.254
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Luis Teixeira'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
