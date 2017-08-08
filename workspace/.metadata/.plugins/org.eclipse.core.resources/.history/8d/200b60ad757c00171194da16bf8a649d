@@ -1,0 +1,32 @@
+import java.io.IOException;
+import java.io.PrintStream;
+import java.util.Scanner;
+
+public class Exercise_04_11 {
+
+	public static void main(String[] args) throws IOException
+	{	
+		Scanner input  = new Scanner(System.in);
+		double dec, hex;
+		
+		/*READ VALUES*/
+		System.out.print("Enter a decimal value (0 to 15): ");
+		dec = input.nextDouble();
+		
+		System.out.print("Enter the side: ");
+		s = input.nextDouble();
+		
+		/*Great Circle Distance*/
+		Area = ((n*(Math.pow(s,2)))/(4*tan(Math.PI/n)));
+		
+		/*Print Values*/
+		System.out.println("The area of the hexagon is " + Area);
+		
+	}
+	
+	static double tan(double val)
+	{
+		return Math.tan(val);	
+	}
+	
+}
