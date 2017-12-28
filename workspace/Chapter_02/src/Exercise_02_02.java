@@ -20,6 +20,7 @@ public class Exercise_02_02 {
 		
 		System.out.printf("The area is %.2f\n", area);
 		System.out.printf("The volume is %.2f\n", volume);
-				
+	
+		input.close();
 	}
 }

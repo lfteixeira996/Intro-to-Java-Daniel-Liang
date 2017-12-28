@@ -39,6 +39,8 @@ public class Exercise_03_01 {
 			System.out.print("The equation has no real roots");
 		}
 		
+		input.close();
+		
 	}
 
 }

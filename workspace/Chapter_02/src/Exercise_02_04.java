@@ -16,5 +16,6 @@ public class Exercise_02_04 {
 
 		System.out.print(pounds+" pounds is " +(float)kilo+ " kilograms");
 		
+		input.close();
 	}
 }

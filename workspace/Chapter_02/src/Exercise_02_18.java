@@ -1,5 +1,4 @@
 import java.io.PrintStream;
-import java.util.Scanner;
 
 public class Exercise_02_18 {
 
@@ -12,5 +11,7 @@ public class Exercise_02_18 {
 		{
 			output.printf("\t%d\t%d\t%d\n", i, i+1, (int)Math.pow(i, i+1) );
 		}
+		
+		output.close();
 	}
 }

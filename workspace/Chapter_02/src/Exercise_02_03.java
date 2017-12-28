@@ -16,5 +16,6 @@ public class Exercise_02_03 {
 
 		System.out.print(feet+" feet is " +meter+ " meters");
 		
+		input.close();
 	}
 }

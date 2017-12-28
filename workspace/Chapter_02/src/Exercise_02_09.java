@@ -14,6 +14,7 @@ public class Exercise_02_09 {
 		double a = (v1-v0)/t;
 		
 		System.out.print("The average acceleration is " +a);
-				
+		
+		input.close();
 	}
 }

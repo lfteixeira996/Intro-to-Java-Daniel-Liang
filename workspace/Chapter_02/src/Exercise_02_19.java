@@ -30,6 +30,7 @@ public class Exercise_02_19 {
 		
 		
 //		output.print("The area of the haxagon is "+A);
+		input.close();
 	}
 	
 	public static double side_calculation(double x1, double x2, double y1, double y2) 

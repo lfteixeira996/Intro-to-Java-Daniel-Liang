@@ -19,5 +19,6 @@ public class Exercise_02_10 {
 		
 		output.println("The energy needded is " + (M * (finalTemp - initialTemp) * 4184));
 		
+		input.close();
 	}
 }

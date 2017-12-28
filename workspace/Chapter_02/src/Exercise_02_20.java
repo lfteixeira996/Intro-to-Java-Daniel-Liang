@@ -20,6 +20,7 @@ public class Exercise_02_20 {
 		
 		output.println("The interest is " + interest);
 		
+		input.close();
 	}
 	
 	

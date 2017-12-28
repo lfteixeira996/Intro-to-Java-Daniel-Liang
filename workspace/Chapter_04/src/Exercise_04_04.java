@@ -1,5 +1,4 @@
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Exercise_04_04 {
@@ -22,6 +21,7 @@ public class Exercise_04_04 {
 		/*Print Values*/
 		System.out.println("The area of the hexagon is " + Area);
 		
+		input.close();
 	}
 	
 	static double tan(double val)

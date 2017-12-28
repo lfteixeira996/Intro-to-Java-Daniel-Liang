@@ -31,5 +31,7 @@ public class Exercise_02_06 {
 		}
 		
 		System.out.println("The sum of the digits is " +sum);
+		
+		input.close();
 	}
 }

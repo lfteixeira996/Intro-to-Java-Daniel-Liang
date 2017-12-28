@@ -5,7 +5,6 @@ public class Exercise_02_13 {
 	public static void main(String[] args) 
 	{	
 		Scanner input = new Scanner(System.in);
-		double anual_rate = 0.05;
 		double month_rate = 0.00417;//0.05/12;
 		
 		System.out.print("Enter the monthly saving amount: ");
@@ -22,5 +21,6 @@ public class Exercise_02_13 {
 			
 		System.out.print("After the sixth month, the account value is $" + value);
 		
+		input.close();
 	}
 }

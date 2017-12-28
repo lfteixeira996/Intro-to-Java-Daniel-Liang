@@ -1,5 +1,4 @@
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Exercise_04_02 {
@@ -34,6 +33,7 @@ public class Exercise_04_02 {
 		/*Print Values*/
 		System.out.println("The distance between the two points is " +d+ " km");
 		
+		input.close();
 		
 	}
 	

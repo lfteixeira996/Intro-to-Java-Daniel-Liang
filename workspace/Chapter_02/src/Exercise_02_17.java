@@ -14,5 +14,7 @@ public class Exercise_02_17 {
 		double A = (3*Math.sqrt(3)*Math.pow(side, 2))/2;
 		
 		output.print("The area of the haxagon is "+A);
+		
+		input.close();
 	}
 }

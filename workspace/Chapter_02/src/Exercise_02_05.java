@@ -18,5 +18,6 @@ public class Exercise_02_05 {
 		
 		System.out.print("The gratuity is %"+gratuity+ " and total is %"+total);
 		
+		input.close();
 	}
 }

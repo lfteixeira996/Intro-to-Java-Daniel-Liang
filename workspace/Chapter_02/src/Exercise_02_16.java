@@ -32,5 +32,6 @@ public class Exercise_02_16 {
 		
 		output.print("The wind chill index is " + Twc);
 		
+		input.close();
 	}
 }

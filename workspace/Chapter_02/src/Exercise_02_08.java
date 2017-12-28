@@ -8,7 +8,7 @@ public class Exercise_02_08 {
 		Scanner input  = new Scanner(System.in);
 		
 		System.out.print("Enter the time zone offset to GMT: ");
-		int offset = input.nextInt();
+
 		
 		long totalMilliseconds = System.currentTimeMillis();
 		
@@ -27,6 +27,6 @@ public class Exercise_02_08 {
 		System.out.println("Current time is " +currentHour+ ":" +currentMinute+ ":" +currentSecond+ " GMT");
 		
 		
-		
+		input.close();
 	}
 }

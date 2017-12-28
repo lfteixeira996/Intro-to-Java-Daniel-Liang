@@ -1,6 +1,4 @@
 import java.io.IOException;
-import java.io.PrintStream;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Exercise_03_18 {
@@ -45,7 +43,7 @@ public class Exercise_03_18 {
 	
 		}
 		
-		
+		input.close();
 		
 		
 	}

@@ -55,6 +55,7 @@ public class Exercise_03_04 {
 
 		}
 		
+		input.close();
 		
 	}
 

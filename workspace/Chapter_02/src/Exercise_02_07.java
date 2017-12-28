@@ -16,5 +16,6 @@ public class Exercise_02_07 {
 		
 		System.out.printf("%d minutes is approximately %d years and %d days\n", minutes, (int)years, (int)days);
 
+		input.close();
 	}
 }

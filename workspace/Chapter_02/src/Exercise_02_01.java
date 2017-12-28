@@ -15,6 +15,8 @@ public class Exercise_02_01 {
 		
 		System.out.print(celsius + " Celsius correspond to " +fahr+ " Fahrenheit");
 		
+		input.close();
 	}
-
+	
+	
 }

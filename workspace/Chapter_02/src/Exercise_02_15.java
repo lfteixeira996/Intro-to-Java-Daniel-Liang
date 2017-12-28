@@ -23,5 +23,7 @@ public class Exercise_02_15 {
 		double aux2 = Math.pow((y2-y1), 2);
 	
 		output.print("The distance between the two points " +(Math.sqrt(aux1+aux2)));
+		
+		input.close();
 	}
 }

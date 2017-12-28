@@ -21,5 +21,6 @@ public class Exercise_02_14 {
 		
 		output.println("BMI is " +BMI);
 	
+		input.close();
 	}
 }

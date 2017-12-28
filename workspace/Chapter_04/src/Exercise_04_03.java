@@ -1,5 +1,4 @@
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class Exercise_04_03 {
@@ -18,6 +17,8 @@ public class Exercise_04_03 {
 		
 		/*Print Values*/
 		System.out.println("The area of the hexagon is " + Area);
+		
+		input.close();
 		
 	}
 	

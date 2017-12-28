@@ -23,5 +23,7 @@ public class Exercise_02_21 {
 		future_invest = invest * Math.pow((1 + (annual_rate/12)), (years*12));
 		
 		output.println("Accumulated value is " + future_invest);
+		
+		input.close();
 	}
 }

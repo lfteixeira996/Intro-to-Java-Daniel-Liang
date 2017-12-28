@@ -22,6 +22,7 @@ public class Exercise_04_01 {
 		
 		System.out.println("The area of the pentagon is " + Area);
 		
+		input.close();
 	}
 
 }

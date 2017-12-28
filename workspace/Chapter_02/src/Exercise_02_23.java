@@ -24,6 +24,7 @@ public class Exercise_02_23 {
 		cost = gallon*pricePerGallon;
 		
 		output.printf("The cost of driving is $%.2f", cost);
+		input.close();
 		
 	}
 	
